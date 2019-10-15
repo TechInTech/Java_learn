@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+//import java.io.*;
+/**
+ * @author DELL
+ * Project Name: Java_learn
+ * Class Name: IoTest01
+ * date: 2019年9月7日
+ */
+//public class IoTest01 {
+//    public static void main(String[] args) throws IOException{
+//        int i = (int) System.in.read();
+//        System.out.println("The i is:"+i);
+//    }
+//}
+
+import java.util.Scanner;
+public class Solution {
+    public boolean isValid(String s) {
+        Scanner sc = new Scanner(System.in);
+        String string = sc.next();
+        sc.close();
+        System.out.println(string);
+    }
+}

@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+
+/**
+ * @author DELL
+ * Project Name: Java_learn
+ * Class Name: List_test
+ * date: 2019年10月2日
+ */
+public class List_test {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+    }
+
+}

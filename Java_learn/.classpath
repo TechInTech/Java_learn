@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Game"/>
+	<classpathentry kind="src" path="DrumKit"/>
+	<classpathentry kind="src" path="Echo"/>
+	<classpathentry kind="src" path="dfs"/>
+	<classpathentry kind="src" path="sort"/>
+	<classpathentry kind="src" path="iotest"/>
+	<classpathentry kind="src" path="set_map_list"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

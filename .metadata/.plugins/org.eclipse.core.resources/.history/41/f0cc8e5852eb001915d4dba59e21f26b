@@ -1,0 +1,22 @@
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+
+/**
+ * 
+ */
+
+/**
+ * @author DELL
+ * Project Name: Java_learn
+ * Class Name: Student
+ * date: 2019年10月3日
+ */
+public class Student {
+    public String name = "";
+    public String sex = "";
+    public int age = 0;
+    
+    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+    String str = "2013-11-07";
+    Date date = format.parse(str); 
+}

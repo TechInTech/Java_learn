@@ -1,0 +1,60 @@
+/**
+ * 
+ */
+package newcoder2017test;
+
+/**
+ * @author DELL
+ * Project Name: newcoder
+ * Class Name: zifuchuanjiazhi
+ * date: 2019年9月13日
+ */
+import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Arrays;
+
+public class zifuchuanjiazhi {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) throws IOException {
+        // TODO Auto-generated method stub
+        BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+        HashMap<Character, Integer> mp = new HashMap<>();
+        
+        String str1 = br1.readLine().trim();
+        int n = Integer.parseInt(br1.readLine().trim());
+        
+        char[] chararr = str1.toCharArray();
+        
+        for(char c: chararr) {
+            if(!mp.containsKey(c)) {
+                mp.put(c,1);
+            }else {
+                mp.put(c, mp.get(c)+1);
+            }
+        }
+        
+        int[] count = new int[mp.size()];
+        int i = 0;
+        for(Integer value: mp.values()) {
+            count[i] = value;
+            i++;
+        }
+        Arrays.parallelSort(count);
+        while(n > 0) {
+            count[count.length-1] = count[count.length-1] - 1;
+            n = n - 1;
+            Arrays.parallelSort(count);
+        }
+        int sums = 0;
+        for(int j = 0; j < count.length; j++) {
+            sums = sums + count[j]*count[j];
+        }
+        System.out.println(sums);
+    }
+
+}

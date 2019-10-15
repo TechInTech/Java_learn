@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package newcoder2017test;
+
+/**
+ * @author DELL
+ * Project Name: newcoder
+ * Class Name: huiwensushu
+ * date: 2019年9月12日
+ */
+public class huiwensushu {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+    }
+
+}

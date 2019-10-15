@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package newcoder2017test;
+
+/**
+ * @author DELL
+ * Project Name: newcoder
+ * Class Name: paixu
+ * date: 2019年9月13日
+ */
+public class paixu {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+    }
+
+}
