@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+
+/**
+ * @author DELL
+ * Project Name: Java_learn
+ * Class Name: longestCommonSubstring
+ * date: 2019年10月17日
+ */
+public class longestCommonSubstring {
+
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+    }
+
+}

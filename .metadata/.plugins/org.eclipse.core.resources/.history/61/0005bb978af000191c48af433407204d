@@ -26,7 +26,7 @@ public class Student {
         BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
         String[] str1 = br1.readLine().split(" ");
         String str11 = str1[0];
-//        String str22 = str1[1];
+        String str22 = str1[1];
         
         
         for (int i = 0; i < str11.length(); i++) {

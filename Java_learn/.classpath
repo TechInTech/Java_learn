@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="sort"/>
 	<classpathentry kind="src" path="iotest"/>
 	<classpathentry kind="src" path="set_map_list"/>
+	<classpathentry kind="src" path="five_algorithm"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
